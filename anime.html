@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JMAX - Movies & Series</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1><span style="color: #ff0040">JM</span>AX</h1>
+      <nav>
+        <a href="page.html">Home</a>
+        <a href="movies.html">Movie</a>
+        <a href="series.html">Series</a>
+        <a href="anime.html">Anime</a>
+      </nav>
+      <div class="search-box">
+        <img src="image/search.png" alt="Search icon" />
+        <input type="text" placeholder="Search" />
+      </div>
+    </header>
+    <div class="carousel">
+      <div class="list">
+        <div class="item">
+          <img src="image/2Anime.png" alt="Attack on Titan anime poster" />
+          <div class="content">
+            <h1>Attack on Titan</h1>
+            <div class="details">
+              <p>Anime | 2013–2023 | 24m</p>
+              <p>RATING 9.1/10</p>
+              <p>98 Episodes</p>
+            </div>
+            <h4>
+              After his hometown is destroyed, young Eren Jaeger vows to cleanse
+              the earth of the giant humanoid Titans that have brought humanity
+              to the brink of extinction.
+            </h4>
+            <div class="buttons">
+              <button
+                class="download-btn"
+                aria-label="Download Attack on Titan"
+              >
+                Download
+              </button>
+              <button
+                class="trailer-btn"
+                aria-label="Watch Attack on Titan trailer"
+              >
+                Trailer
+              </button>
+            </div>
+            <div class="vid-box">
+              <video
+                controls
+                id="vid-aot"
+                src="trailermp4/Attack on Titan Season.mp4"
+                type="video/mp4"
+              >
+                Your browser does not support the video tag. Please download the
+                trailer.
+              </video>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="image/4Anime.png" alt="Black Clover anime poster" />
+          <div class="content">
+            <h1>Black Clover</h1>
+            <div class="details">
+              <p>Anime | 2017–2021</p>
+              <p>RATING 8.3/10</p>
+              <p>170 Episodes</p>
+            </div>
+            <h4>
+              Asta and Yuno were abandoned together at the same church and have
+              been inseparable since. As children, they promised that they would
+              compete against each other to see who would become the next
+              Emperor Magus.
+            </h4>
+            <div class="buttons">
+              <button class="download-btn" aria-label="Download Black Clover">
+                Download
+              </button>
+              <button
+                class="trailer-btn"
+                aria-label="Watch Black Clover trailer"
+              >
+                Trailer
+              </button>
+            </div>
+            <div class="vid-box">
+              <video
+                controls
+                id="vid-black-clover"
+                src="trailermp4/Black Clover.mp4"
+                type="video/mp4"
+              >
+                Your browser does not support the video tag. Please download the
+                trailer.
+              </video>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="thumbnail">
+        <div class="item">
+          <img src="image/2Anime.png" alt="Attack on Titan anime poster" />
+          <div class="thum-content">
+            <div class="title">Attack on Titan</div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="image/4Anime.png" alt="Black Clover anime poster" />
+          <div class="thum-content">
+            <div class="title">Black Clover</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="arrows">
+      <button id="prev">&lt;</button>
+      <button id="next">&gt;</button>
+    </div>
+    <div class="time"></div>
+    <script src="js function.js"></script>
+  </body>
+</html>

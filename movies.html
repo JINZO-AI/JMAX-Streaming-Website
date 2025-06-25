@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JMAX - Movies & Series</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1><span style="color: #ff0040">JM</span>AX</h1>
+      <nav>
+        <a href="page.html">Home</a>
+          <a href="movies.html">Movie</a>
+          <a href="series.html">Series</a>
+          <a href="anime.html">Anime</a>
+      </nav>
+      <div class="search-box">
+        <img src="image/search.png" alt="Search icon" />
+        <input type="text" placeholder="Search" />
+      </div>
+    </header>
+    <div class="carousel">
+      <div class="list">
+        <div class="item">
+          <img src="image/1Movie.png" alt="Oppenheimer movie poster" />
+          <div class="content">
+            <h1>Oppenheimer</h1>
+            <div class="details">
+              <p>R | Biography, Drama, History</p>
+              <p>RATING 8.3/10</p>
+              <p>3h</p>
+            </div>
+            <h4>
+              J. Robert Oppenheimer, the physicist who had a large hand in the
+              development of the atomic bombs that brought an end to World War
+              II.
+            </h4>
+            <div class="buttons">
+              <button class="download-btn" aria-label="Download Oppenheimer">
+                Download
+              </button>
+              <button
+                class="trailer-btn"
+                aria-label="Watch Oppenheimer trailer"
+              >
+                Trailer
+              </button>
+            </div>
+            <div class="vid-box">
+              <video
+                controls
+                id="vid-oppenheimer"
+                src="trailermp4/Oppenheimer.mp4"
+                type="video/mp4"
+              >
+                Your browser does not support the video tag. Please download the
+                trailer.
+              </video>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="image/3Movie.png" alt="Parasite movie poster" />
+          <div class="content">
+            <h1>Parasite</h1>
+            <div class="details">
+              <p>2019 | R | 2h 12m</p>
+              <p>RATING 8.3/10</p>
+            </div>
+            <h4>
+              Greed and class discrimination threaten the newly formed symbiotic
+              relationship between the wealthy Park family and the destitute Kim
+              clan.
+            </h4>
+            <div class="buttons">
+              <button class="download-btn" aria-label="Download Parasite">
+                Download
+              </button>
+              <button class="trailer-btn" aria-label="Watch Parasite trailer">
+                Trailer
+              </button>
+            </div>
+            <div class="vid-box">
+              <video
+                controls
+                id="vid-parasite"
+                src="trailermp4/Parasite .mp4"
+                type="video/mp4"
+              >
+                Your browser does not support the video tag. Please download the
+                trailer.
+              </video>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="thumbnail">
+        <div class="item">
+          <img src="image/1Movie.png" alt="Oppenheimer movie poster" />
+          <div class="thum-content">
+            <div class="title">Oppenheimer</div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="image/3Movie.png" alt="Parasite movie poster" />
+          <div class="thum-content">
+            <div class="title">Parasite</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="arrows">
+      <button id="prev">&lt;</button>
+      <button id="next">&gt;</button>
+    </div>
+    <div class="time"></div>
+    <script src="js function.js"></script>
+  </body>
+</html>
